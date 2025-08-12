@@ -311,7 +311,7 @@ export const RESUME_DATA: ResumeData = {
         "Lightweight, high performance document to markdown API & Worker Queue using Mistral OCR with SQLite + Turso for Embedded Cloud Syncs",
       link: {
         label: "Ilios OCR",
-        href: "https://github.com/tobalo/ilios",
+        href: "https://ilios.sh",
       },
     },
   ],
