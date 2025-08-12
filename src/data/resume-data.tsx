@@ -285,13 +285,33 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "Encrypted News Network",
-      techStack: ["Python", "FastAPI", "Metagraphs", "DAGs", "React"],
+      title: "Fort Worth DAO",
+      techStack: ["Web3", "Blockchain", "IPFS", "Community Leadership", "Education"],
       description:
-        "Proof of concept for an immutable news network using DAG architecture and metagraphs to ensure data integrity and traceability.",
+        "Founded and building the leading City DAO and Crypto leadership for Fort Worth. Driving civic innovation, digital ownership workshops, and thought leadership.",
       link: {
-        label: "ENN POC",
-        href: "https://github.com/jedi-ops/immutable-news-dag-poc",
+        label: "FWTX DAO",
+        href: "https://fwtx.city",
+      },
+    },
+    {
+      title: "The Great Capitulation",
+      techStack: ["Macroeconomics", "Theory", "Market Research", "Information Capital"],
+      description:
+        "Thesis on National Financial Security risk to USG + American Retirements.",
+      link: {
+        label: "The Great Capitulation",
+        href: "https://github.com/tobalo/sovereign-capital-data-flow",
+      },
+    },
+    {
+      title: "Ilios OCR",
+      techStack: ["Bun", "Hono", "Mistral", "Tigris", "Turso"],
+      description:
+        "Lightweight, high performance document to markdown API & Worker Queue using Mistral OCR with SQLite + Turso for Embedded Cloud Syncs",
+      link: {
+        label: "Ilios OCR",
+        href: "https://github.com/tobalo/ilios",
       },
     },
   ],
