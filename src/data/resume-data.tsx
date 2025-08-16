@@ -8,8 +8,8 @@ export const RESUME_DATA: ResumeData = {
   about: "Systems Architect, Software Developer, Investor, Entrepreneur, Advisor, Analyst, and most importantly a Life Long Student",
   summary: (
     <>
-     Tobalo is a technical business leader with over 9 years of experience in IT and Cloud for both Enterprise and Startups. Recent work has been developing agentic workflows and embedded AI agents into workflows and processes. Strong awareness of state of the art and latest techniques for cloud and AI engineering.
-    </>
+     Technical business leader with 9+ years of enterprise and startup experience in IT and cloud infrastructure. Currently specializing in developing agentic workflows and integrating AI agents into business processes, with deep expertise in cutting-edge cloud and AI engineering methodologies.
+Active in community leadership through the Fort Worth DAO for Information Age Governance, focused on expanding the local technical workforce and advancing non-profit educational initiatives. </>
   ),
   avatarUrl: "https://cdn.fwtx.city/headshot.jpeg",
   personalWebsiteUrl: "https://tobalo.me",
