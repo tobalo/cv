@@ -87,7 +87,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://y2.dev",
       badges: ["Bootstrap", "Product Engineering", "FinOps", "Strategy"],
       title: "Founder",
-      start: "Jan 2021",
+      start: "Aug 2024",
       end: null,
       description: (
         <ul className="list-inside list-disc">
