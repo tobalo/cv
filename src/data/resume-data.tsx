@@ -5,11 +5,21 @@ export const RESUME_DATA: ResumeData = {
   initials: "TTV",
   location: "Texas",
   locationLink: "https://www.google.com/maps/place/Texas",
-  about: "Systems Architect, Software Developer, Investor, Entrepreneur, Advisor, Analyst, and most importantly a Life Long Student",
+  about:
+    "Systems Architect, Software Developer, Investor, Entrepreneur, Advisor, Analyst, and most importantly a Life Long Student",
   summary: (
     <>
+<<<<<<< HEAD
      Technical business leader with 9+ years of enterprise and startup experience in IT and cloud infrastructure. Currently specializing in developing agentic workflows and integrating AI agents into business processes, with deep expertise in cutting-edge cloud and AI engineering methodologies.
 Active in community leadership through the Fort Worth DAO for Information Age Governance, focused on expanding the local technical workforce and advancing non-profit educational initiatives. </>
+=======
+      Tobalo is a technical business leader with over 9 years of experience in
+      IT and Cloud for both Enterprise and Startups. Recent work has been
+      developing agentic workflows and embedded AI agents into workflows and
+      processes. Strong awareness of state of the art and latest techniques for
+      cloud and AI engineering.
+    </>
+>>>>>>> 07bbf5a (refactor: projects+additional)
   ),
   avatarUrl: "https://cdn.fwtx.city/headshot.jpeg",
   personalWebsiteUrl: "https://tobalo.me",
@@ -53,19 +63,26 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Lead engineering team to design AI-based data engineering workflows for complex business documents, improving data serialization, structured outputs, and process automation, saving 1000+ hours for clients.
+            Lead engineering team to design AI-based data engineering workflows
+            for complex business documents, improving data serialization,
+            structured outputs, and process automation, saving 1000+ hours for
+            clients.
           </li>
           <li>
-            Designed and engineered state-of-the-art AI-enabled document OCR pipelines.
+            Designed and engineered state-of-the-art AI-enabled document OCR
+            pipelines.
           </li>
           <li>
-            Provided strategic advice on AI industry updates for product strategy and technical due diligence.
+            Provided strategic advice on AI industry updates for product
+            strategy and technical due diligence.
           </li>
           <li>
-            Developed multi-model AI agents for regulated industries using Go, Python, and TypeScript.
+            Developed multi-model AI agents for regulated industries using Go,
+            Python, and TypeScript.
           </li>
           <li>
-            Lead Architect on AI engineering design, delivery, and tailored solutions consulting.
+            Lead Architect on AI engineering design, delivery, and tailored
+            solutions consulting.
           </li>
         </ul>
       ),
@@ -75,27 +92,41 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       link: "https://y2.dev",
       badges: ["Bootstrap", "Product Engineering", "FinOps", "Strategy"],
       title: "Founder",
-      start: "Jan 2021",
+      start: "Aug 2024",
       end: null,
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Architected and shipped multiple re-platform iterations integrating OSINT data mining for niche information flow; y2.dev flagship product serving global investors, analysts, and researchers.
+            Architected and shipped multiple re-platform iterations integrating
+            OSINT data mining for niche information flow; y2.dev flagship
+            product serving global investors, analysts, and researchers.
           </li>
           <li>
-            Technical consultant for Cloud & AI engineering, developing autonomous agents for real-time intelligence gathering and analysis; designed scalable webhook/API infrastructure and cloud-native solutions across Cloudflare, Vercel, Docker, and Postgres.
+            Technical consultant for Cloud & AI engineering, developing
+            autonomous agents for real-time intelligence gathering and analysis;
+            designed scalable webhook/API infrastructure and cloud-native
+            solutions across Cloudflare, Vercel, Docker, and Postgres.
           </li>
           <li>
-            Consulted clients on end-to-end systems architecture using TypeScript, Python, Golang, Next.js, PostgreSQL; designed pub/sub and event-driven architectures integrating multi-modal AI workflows with LangGraph, Mastra, Agno, and CrewAI.
+            Consulted clients on end-to-end systems architecture using
+            TypeScript, Python, Golang, Next.js, PostgreSQL; designed pub/sub
+            and event-driven architectures integrating multi-modal AI workflows
+            with LangGraph, Mastra, Agno, and CrewAI.
           </li>
           <li>
-            Established multi-tier content strategy producing executive briefings, insider trading analysis, cybersecurity newsletters, and reindustrialization intelligence for American manufacturing and Industry 4.0 transformation.
+            Established multi-tier content strategy producing executive
+            briefings, insider trading analysis, cybersecurity newsletters, and
+            reindustrialization intelligence for American manufacturing and
+            Industry 4.0 transformation.
           </li>
           <li>
-            Bootstrapped profitable platform from concept with zero external funding; implemented FinOps best practices and business automation systems while managing P&L and scaling technical capabilities.
+            Bootstrapped profitable platform from concept with zero external
+            funding; implemented FinOps best practices and business automation
+            systems while managing P&L and scaling technical capabilities.
           </li>
           <li>
-            <b>Skills:</b> Business Strategy, Product Development, Strategic Planning
+            <b>Skills:</b> Business Strategy, Product Development, Strategic
+            Planning
           </li>
         </ul>
       ),
@@ -103,53 +134,81 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
     {
       company: "Oracle",
       link: "https://oracle.com",
-      badges: ["Enterprise", "OCI", "Security", "Databases", "Customer Success"],
+      badges: [
+        "Enterprise",
+        "OCI",
+        "Security",
+        "Databases",
+        "Customer Success",
+      ],
       title: "Solutions Architect",
       start: "Aug 2018",
       end: "Jul 2024",
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Driven ~$25mm OCI ACR. Partnered with sales to build organizational relationships for business & technical problems.
+            Driven ~$25mm OCI ACR. Partnered with sales to build organizational
+            relationships for business & technical problems.
           </li>
           <li>
-            Designed and deployed OCI landing zones for data center consolidation & migrations.
+            Designed and deployed OCI landing zones for data center
+            consolidation & migrations.
           </li>
           <li>
-            Onboarded customer tenancies to expedite time-to-consumption and ensure delivery success.
+            Onboarded customer tenancies to expedite time-to-consumption and
+            ensure delivery success.
           </li>
           <li>
-            Deepened Cloud-Native engineering relationships in the OCI ecosystem.
+            Deepened Cloud-Native engineering relationships in the OCI
+            ecosystem.
+          </li>
+          <li>Liaison for pain points from P0 security to CSAT/CX/XDR.</li>
+          <li>
+            Advised day 2 operational excellence best practices with
+            cloud-native methodologies.
           </li>
           <li>
-            Liaison for pain points from P0 security to CSAT/CX/XDR.
+            Augmented XDR resolution times by 2x through cross-functional
+            collaboration.
           </li>
           <li>
-            Advised day 2 operational excellence best practices with cloud-native methodologies.
+            Finalist in Accenture OCI 2023 mastermind hackathon (space &
+            satellite innovation) and 2024 Mastermind (edgeAI for emergency
+            response).
+          </li>
+          <li>Led program for OCI-C-&gt;OCI upgrades for 150+ clients.</li>
+          <li>
+            Advised cloud security posture assessments and audits per CIS
+            standards.
           </li>
           <li>
-            Augmented XDR resolution times by 2x through cross-functional collaboration.
-          </li>
-          <li>
-            Finalist in Accenture OCI 2023 mastermind hackathon (space & satellite innovation) and 2024 Mastermind (edgeAI for emergency response).
-          </li>
-          <li>
-            Led program for OCI-C-&gt;OCI upgrades for 150+ clients.
-          </li>
-          <li>
-            Advised cloud security posture assessments and audits per CIS standards.
-          </li>
-          <li>
-            Certified OCI Security Professional & Architect. TPM Tiger Team for Oracle@Azure.
+            Certified OCI Security Professional & Architect. TPM Tiger Team for
+            Oracle@Azure.
           </li>
           <li>
             Field researcher in OCI strategic innovation - AI & Blockchain.
           </li>
           <li>
-            <b>Published Blogs:</b> <a href="https://blogs.oracle.com/cloud-infrastructure/post/reimagining-edge-data-analysis-llms-opensource">Edge Data Analysis with LLMs</a>, <a href="https://blogs.oracle.com/developers/post/empower-your-analysts-with-natural-language-querying-at-the-edge">Natural Language Querying at the Edge</a>
+            <b>Published Blogs:</b>{" "}
+            <span className="inline-flex gap-2">
+              <a
+                href="https://blogs.oracle.com/cloud-infrastructure/post/reimagining-edge-data-analysis-llms-opensource"
+                className="font-semibold underline underline-offset-2 text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                📝 Edge Data Analysis with LLMs
+              </a>
+              <span className="text-gray-400">|</span>
+              <a
+                href="https://blogs.oracle.com/developers/post/empower-your-analysts-with-natural-language-querying-at-the-edge"
+                className="font-semibold underline underline-offset-2 text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                📝 Natural Language Querying at the Edge
+              </a>
+            </span>
           </li>
           <li>
-            <b>Skills:</b> Business Development, Strategic Planning, Data Analysis, Solution Architecture
+            <b>Skills:</b> Business Development, Strategic Planning, Data
+            Analysis, Solution Architecture
           </li>
         </ul>
       ),
@@ -173,13 +232,16 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Monitored Texas State University System NOC for anomalies in HVAC, network outages, and security incidents.
+            Monitored Texas State University System NOC for anomalies in HVAC,
+            network outages, and security incidents.
           </li>
           <li>
-            Trained new employees on support operations and data center monitoring.
+            Trained new employees on support operations and data center
+            monitoring.
           </li>
           <li>
-            Responded to critical systems escalations for faculty, staff, and students.
+            Responded to critical systems escalations for faculty, staff, and
+            students.
           </li>
         </ul>
       ),
@@ -194,13 +256,17 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Programmed scripts to automate image deployment, software installations, and system administration tasks, saving over 100+ hours per year.
+            Programmed scripts to automate image deployment, software
+            installations, and system administration tasks, saving over 100+
+            hours per year.
           </li>
           <li>
-            Implemented one-click silent software installations to streamline processes and increase efficiency.
+            Implemented one-click silent software installations to streamline
+            processes and increase efficiency.
           </li>
           <li>
-            Developed automation solutions for legacy IT shop at McCoy Corporation in San Marcos, TX.
+            Developed automation solutions for legacy IT shop at McCoy
+            Corporation in San Marcos, TX.
           </li>
         </ul>
       ),
@@ -215,13 +281,16 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Instructed cabling team during wireless upgrade project for 100+ academic buildings and 20+ dorms with 5ghz Cisco Meraki APs.
+            Instructed cabling team during wireless upgrade project for 100+
+            academic buildings and 20+ dorms with 5ghz Cisco Meraki APs.
           </li>
           <li>
-            Conducted quality assurance for 2,300+ wireless access points, advising on necessary changes.
+            Conducted quality assurance for 2,300+ wireless access points,
+            advising on necessary changes.
           </li>
           <li>
-            Achieved seamless implementation of wireless network infrastructure for educational facilities.
+            Achieved seamless implementation of wireless network infrastructure
+            for educational facilities.
           </li>
         </ul>
       ),
@@ -233,7 +302,8 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       title: "Team Lead, Growth",
       start: "Jul 2015",
       end: "Feb 2017",
-      description: "Managed growth of tilt.com at Texas State by hiring ambassadors, issuing promo codes, promoting events, and selling items.",
+      description:
+        "Managed growth of tilt.com at Texas State by hiring ambassadors, issuing promo codes, promoting events, and selling items.",
     },
   ],
   skills: [
@@ -255,12 +325,12 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
     "Web3",
     "DAOs",
     "OSINT",
-    "Internet Investigations"
+    "Internet Investigations",
   ],
   projects: [
     {
       title: "Covara",
-      techStack: ["TypeScript", "Next.js", "Vercel", "GCP","PostgreSQL"],
+      techStack: ["TypeScript", "Next.js", "Vercel", "GCP", "PostgreSQL"],
       description:
         "AI document processing engine for Property & Casualty Insurance",
       link: {
@@ -270,13 +340,7 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
     },
     {
       title: "Gogent",
-      techStack: [
-        "Golang",
-        "Ollama",
-        "Nats.io",
-        "SQLlite",
-        "EdgeAI"
-      ],
+      techStack: ["Golang", "Ollama", "Nats.io", "SQLlite", "EdgeAI"],
       description:
         "Distributed log analysis system that uses embedded NATS messaging and LLM-powered agents to process and analyze system logs in real-time and at the edge.",
       link: {
@@ -286,7 +350,13 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
     },
     {
       title: "Fort Worth DAO",
-      techStack: ["Web3", "Blockchain", "IPFS", "Community Leadership", "Education"],
+      techStack: [
+        "Web3",
+        "Blockchain",
+        "IPFS",
+        "Community Leadership",
+        "Education",
+      ],
       description:
         "Founded and building the leading City DAO and Crypto leadership for Fort Worth. Driving civic innovation, digital ownership workshops, and thought leadership.",
       link: {
@@ -296,7 +366,12 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
     },
     {
       title: "The Great Capitulation",
-      techStack: ["Macroeconomics", "Theory", "Market Research", "Information Capital"],
+      techStack: [
+        "Macroeconomics",
+        "Theory",
+        "Market Research",
+        "Information Capital",
+      ],
       description:
         "Thesis on National Financial Security risk to USG + American Retirements.",
       link: {
@@ -312,6 +387,56 @@ Active in community leadership through the Fort Worth DAO for Information Age Go
       link: {
         label: "Ilios OCR",
         href: "https://ilios.sh",
+      },
+    },
+    {
+      title: "Edge Healthcare Research",
+      techStack: [
+        "Knowledge Graphs",
+        "EdgeAI",
+        "Market Research",
+        "Market Discovery",
+        "Analysis",
+      ],
+      description:
+        "Healthcare research platform leveraging knowledge graphs and edge AI for market discovery and analysis",
+      link: {
+        label: "Health Edge AI Labs",
+        href: "https://health.edge.ai.labs.jedi-ops.dev",
+      },
+    },
+    {
+      title: "Gloria SDK",
+      techStack: ["TypeScript", "Bun", "Web3", "AI", "x402"],
+      description:
+        "TypeScript SDK for Gloria AI - an AI-powered news protocol utilizing x402 for payments and stablecoin native infrastructure",
+      link: {
+        label: "GitHub - Gloria SDK",
+        href: "https://github.com/tobalo/gloria-sdk",
+      },
+    },
+    {
+      title: "Dispatchr",
+      techStack: ["Twilio", "Python", "PostgreSQL", "Agentic Workflows"],
+      description:
+        "Enabling agentic workflows for driver assignment, driver communications, and load management for logistics company",
+    },
+    {
+      title: "Production Grade OCR with dots.ocr",
+      techStack: [
+        "Hugging Face",
+        "Python",
+        "Bash",
+        "YAML",
+        "MLOps",
+        "Baseten",
+        "Truss",
+      ],
+      description:
+        "Deploying dots.ocr via Truss for multilingual document layout parsing in a single vision-language model configured for Baseten inference",
+      link: {
+        label: "dots.ocr Truss Deployment",
+        href: "https://github.com/tobalo/dots.ocr.truss",
       },
     },
   ],
