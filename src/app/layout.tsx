@@ -45,6 +45,14 @@ export const metadata: Metadata = {
     siteName: `${RESUME_DATA.name}'s CV`,
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     description: RESUME_DATA.about,
+    images: [
+      {
+        url: "/tobalo_og.png",
+        width: 1200,
+        height: 630,
+        alt: `${RESUME_DATA.name}'s CV`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -62,6 +70,7 @@ export const metadata: Metadata = {
     title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     description: RESUME_DATA.about,
     creator: "@tobalotv",
+    images: ["/tobalo_og.png"],
   },
   alternates: {
     canonical: RESUME_DATA.personalWebsiteUrl,
