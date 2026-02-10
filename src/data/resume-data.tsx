@@ -324,6 +324,22 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
+      title: "Constellation Overwatch",
+      techStack: [
+        "Golang",
+        "SSE",
+        "Signals Processing",
+        "Edge Computing",
+        "Durable Streams",
+      ],
+      description:
+        "Open Source C4 Industrial Data Fabric",
+      link: {
+        label: "constellation-overwatch.dev",
+        href: "https://constellation-overwatch.dev",
+      },
+    },
+    {
       title: "Covara",
       techStack: ["TypeScript", "Next.js", "Vercel", "GCP", "PostgreSQL"],
       description:
@@ -409,12 +425,6 @@ export const RESUME_DATA: ResumeData = {
         label: "GitHub - Gloria SDK",
         href: "https://github.com/tobalo/gloria-sdk",
       },
-    },
-    {
-      title: "Dispatchr",
-      techStack: ["Twilio", "Python", "PostgreSQL", "Agentic Workflows"],
-      description:
-        "Enabling agentic workflows for driver assignment, driver communications, and load management for logistics company",
     },
     {
       title: "Production Grade OCR with dots.ocr",
